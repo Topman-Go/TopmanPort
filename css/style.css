@@ -265,12 +265,17 @@ textarea {
     margin-top: 5rem;
     text-align: center; }
 
+
+  /* =========About========= */
+
+
 .about {
   background: #fafafa; }
   .about__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10rem; }
+    
     @media only screen and (max-width: 56.25em) {
       .about__content {
         grid-template-columns: 1fr;
@@ -281,7 +286,12 @@ textarea {
       margin-bottom: 3rem; }
       @media only screen and (max-width: 37.5em) {
         .about__content-title {
-          font-size: 30px; } }
+          font-size: 30px; } 
+         }
+         @media only screen and (max-width: 37.5em) {
+          .about__content-details p{
+            font-size: 2rem; } }
+
     .about__content-details-para {
       font-size: 25px;
       color: grey;
@@ -330,7 +340,7 @@ textarea {
       margin-bottom: 2rem; }
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-title {
-          font-size: 2.4rem; } }
+          font-size: 32px; } }
     .projects__row-content-desc {
       font-size: 25px;
       color: grey;
